@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <g transform="translate(100,100)">
+    <!-- Outer ring of 16 keys -->
+    <g transform="rotate(0)"><circle cx="0" cy="-60" r="9" fill="#dc2626"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#dc2626"/></g>
+    <g transform="rotate(22.5)"><circle cx="0" cy="-60" r="9" fill="#ea580c"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#ea580c"/></g>
+    <g transform="rotate(45)"><circle cx="0" cy="-60" r="9" fill="#ca8a04"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#ca8a04"/></g>
+    <g transform="rotate(67.5)"><circle cx="0" cy="-60" r="9" fill="#16a34a"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#16a34a"/></g>
+    <g transform="rotate(90)"><circle cx="0" cy="-60" r="9" fill="#0d9488"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#0d9488"/></g>
+    <g transform="rotate(112.5)"><circle cx="0" cy="-60" r="9" fill="#0891b2"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#0891b2"/></g>
+    <g transform="rotate(135)"><circle cx="0" cy="-60" r="9" fill="#2563eb"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#2563eb"/></g>
+    <g transform="rotate(157.5)"><circle cx="0" cy="-60" r="9" fill="#4f46e5"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#4f46e5"/></g>
+    <g transform="rotate(180)"><circle cx="0" cy="-60" r="9" fill="#7c3aed"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#7c3aed"/></g>
+    <g transform="rotate(202.5)"><circle cx="0" cy="-60" r="9" fill="#9333ea"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#9333ea"/></g>
+    <g transform="rotate(225)"><circle cx="0" cy="-60" r="9" fill="#c026d3"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#c026d3"/></g>
+    <g transform="rotate(247.5)"><circle cx="0" cy="-60" r="9" fill="#db2777"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#db2777"/></g>
+    <g transform="rotate(270)"><circle cx="0" cy="-60" r="9" fill="#e11d48"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#e11d48"/></g>
+    <g transform="rotate(292.5)"><circle cx="0" cy="-60" r="9" fill="#dc2626"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#dc2626"/></g>
+    <g transform="rotate(315)"><circle cx="0" cy="-60" r="9" fill="#ea580c"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#ea580c"/></g>
+    <g transform="rotate(337.5)"><circle cx="0" cy="-60" r="9" fill="#ca8a04"/><rect x="-2.5" y="-52" width="5" height="40" rx="1.5" fill="#ca8a04"/></g>
+    <!-- Inner ring of 8 keys -->
+    <g transform="rotate(11.25)"><circle cx="0" cy="-35" r="8" fill="#16a34a" stroke="#15803d" stroke-width="1"/><rect x="-2" y="-28" width="4" height="28" rx="1" fill="#16a34a" stroke="#15803d" stroke-width="1"/></g>
+    <g transform="rotate(56.25)"><circle cx="0" cy="-35" r="8" fill="#0d9488" stroke="#0f766e" stroke-width="1"/><rect x="-2" y="-28" width="4" height="28" rx="1" fill="#0d9488" stroke="#0f766e" stroke-width="1"/></g>
+    <g transform="rotate(101.25)"><circle cx="0" cy="-35" r="8" fill="#0891b2" stroke="#0e7490" stroke-width="1"/><rect x="-2" y="-28" width="4" height="28" rx="1" fill="#0891b2" stroke="#0e7490" stroke-width="1"/></g>
+    <g transform="rotate(146.25)"><circle cx="0" cy="-35" r="8" fill="#2563eb" stroke="#1d4ed8" stroke-width="1"/><rect x="-2" y="-28" width="4" height="28" rx="1" fill="#2563eb" stroke="#1d4ed8" stroke-width="1"/></g>
+    <g transform="rotate(191.25)"><circle cx="0" cy="-35" r="8" fill="#4f46e5" stroke="#4338ca" stroke-width="1"/><rect x="-2" y="-28" width="4" height="28" rx="1" fill="#4f46e5" stroke="#4338ca" stroke-width="1"/></g>
+    <g transform="rotate(236.25)"><circle cx="0" cy="-35" r="8" fill="#7c3aed" stroke="#6d28d9" stroke-width="1"/><rect x="-2" y="-28" width="4" height="28" rx="1" fill="#7c3aed" stroke="#6d28d9" stroke-width="1"/></g>
+    <g transform="rotate(281.25)"><circle cx="0" cy="-35" r="8" fill="#9333ea" stroke="#7e22ce" stroke-width="1"/><rect x="-2" y="-28" width="4" height="28" rx="1" fill="#9333ea" stroke="#7e22ce" stroke-width="1"/></g>
+    <g transform="rotate(326.25)"><circle cx="0" cy="-35" r="8" fill="#c026d3" stroke="#a21caf" stroke-width="1"/><rect x="-2" y="-28" width="4" height="28" rx="1" fill="#c026d3" stroke="#a21caf" stroke-width="1"/></g>
+    <!-- Center key -->
+    <circle cx="0" cy="-15" r="10" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+    <rect x="-3" y="-6" width="6" height="20" rx="2" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+    <rect x="-3" y="2" width="10" height="3" fill="#f59e0b"/>
+    <rect x="-3" y="7" width="8" height="3" fill="#f59e0b"/>
+  </g>
+</svg>

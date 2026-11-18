@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarNew — Комплекты универсальных ключей «Вездеход»</title>
+    <meta name="description" content="Открывайте до 85% домофонов за секунды с комплектом универсальных ключей «Вездеход». Контакты на 21 или 24 часа. Гарантия 1 год.">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#" class="logo" aria-label="StarNew — на главную">
+                <img src="images/logo.svg" alt="StarNew" width="120" height="32">
+            </a>
+
+            <nav class="nav" id="nav" aria-label="Основная навигация">
+                <ul class="nav__list">
+                    <li><a href="#pains" class="nav__link">Боли и решения</a></li>
+                    <li><a href="#pricing" class="nav__link">Комплекты</a></li>
+                    <li><a href="#compatibility" class="nav__link">Совместимость</a></li>
+                    <li><a href="#faq" class="nav__link">FAQ</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__contacts">
+                <a href="https://wa.me/79181234567" class="header__contact" aria-label="WhatsApp">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                </a>
+                <a href="https://t.me/starnew" class="header__contact" aria-label="Telegram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                </a>
+                <a href="tel:+79181234567" class="header__phone">8 (918) 123-45-67</a>
+            </div>
+
+            <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="hero">
+            <div class="container hero__inner">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Открывайте до 85% домофонов за секунды с комплектом универсальных ключей <span class="accent">«Вездеход»</span>
+                    </h1>
+                    <p class="hero__subtitle">Комплекты на 6, 21 или 24 ключа. Работают с популярными российскими и зарубежными системами.</p>
+
+                    <ul class="hero__list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Поддержка популярных производителей домофонов
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Таблица совместимости в комплекте
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Гарантия 1 год
+                        </li>
+                    </ul>
+
+                    <a href="#pricing" class="btn btn--primary hero__cta">Смотреть комплекты ключей
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+                <div class="hero__card">
+                    <div class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/keys-start.svg" alt="Комплект ключей СТАРТ" width="200" height="200">
+                        </div>
+                        <div class="product-card__info">
+                            <span class="product-card__name">Комплект «СТАРТ»</span>
+                            <span class="product-card__price">990 ₽</span>
+                            <span class="product-card__count">Ключей: 6 шт.</span>
+                            <a href="#pricing" class="btn btn--primary product-card__btn">ВЫБРАТЬ «СТАРТ»</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== БОЛИ И РЕШЕНИЯ ===== -->
+        <section class="section pains" id="pains">
+            <div class="container">
+                <h2 class="section__title">Знакомые ситуации?</h2>
+
+                <div class="pains__list">
+                    <div class="pains__item">
+                        <h3 class="pains__problem">«Опять не могу попасть»</h3>
+                        <p class="pains__text">Вы стоите перед подъездом, в руках пакет или документы, а ключ не подходит. Приходится звонить жильцам, ждать, пока кто-то откроет, или обходить двор в поисках открытой двери. Каждый раз — потерянное время и нервы.</p>
+                        <div class="pains__solution">
+                            <strong>Решение:</strong> Комплект «Вездеход» открывает до 85% домофонов с первого раза. Больше не нужно зависеть от других людей или искать обходные пути.
+                        </div>
+                    </div>
+
+                    <div class="pains__item">
+                        <h3 class="pains__problem">«Связка ключей как у завхоза»</h3>
+                        <p class="pains__text">У вас 5-10 разных ключей от разных объектов. Путаетесь, какой от какого подъезда. Теряете нужные в самый неподходящий момент. Носите с собой тяжелую связку, которая рвет карманы и сумки.</p>
+                        <div class="pains__solution">
+                            <strong>Решение:</strong> Один универсальный комплект заменяет десятки отдельных ключей. Компактный, легкий, всегда под рукой. Работает с большинством систем без необходимости помнить, какой ключ куда подходит.
+                        </div>
+                    </div>
+
+                    <div class="pains__item">
+                        <h3 class="pains__problem">«Ключ потерялся — опять платить»</h3>
+                        <p class="pains__text">Потеряли или сломали ключ от домофона. Нужно идти в УК, писать заявление, ждать изготовления дубликата. Платите 300-500 рублей за каждый новый ключ, а через месяц ситуация повторяется.</p>
+                        <div class="pains__solution">
+                            <strong>Решение:</strong> С комплектом «Вездеход» у вас всегда есть запасные варианты. Даже если один ключ потеряется, остальные продолжат работать. Экономия на дубликатах окупает стоимость комплекта за 2-3 месяца.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== КОМУ ПОДОЙДУТ ===== -->
+        <section class="section audience" id="audience">
+            <div class="container">
+                <h2 class="section__title">Кому подойдут<br>универсальные ключи</h2>
+
+                <div class="audience__grid">
+                    <div class="audience__card">
+                        <div class="audience__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        </div>
+                        <h3 class="audience__title">Риелторам</h3>
+                        <p class="audience__text">быстрый доступ в подъезды и показы</p>
+                    </div>
+
+                    <div class="audience__card">
+                        <div class="audience__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                        </div>
+                        <h3 class="audience__title">Курьерам</h3>
+                        <p class="audience__text">экономия времени на доставках</p>
+                    </div>
+
+                    <div class="audience__card">
+                        <div class="audience__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                        </div>
+                        <h3 class="audience__title">Сервисным специалистам</h3>
+                        <p class="audience__text">удобство работы</p>
+                    </div>
+
+                    <div class="audience__card">
+                        <div class="audience__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg>
+                        </div>
+                        <h3 class="audience__title">Управляющим компаниям</h3>
+                        <p class="audience__text">резервный комплект</p>
+                    </div>
+
+                    <div class="audience__card">
+                        <div class="audience__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                        <h3 class="audience__title">Частным пользователям</h3>
+                        <p class="audience__text">на случай потери ключа</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ТАРИФЫ ===== -->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+                <h2 class="section__title">Выберите комплект<br>универсальных ключей</h2>
+
+                <div class="pricing__grid">
+                    <!-- СТАРТ -->
+                    <div class="pricing__card">
+                        <div class="pricing__header">
+                            <span class="pricing__label">УК-6 2024</span>
+                            <span class="pricing__name">СТАРТ</span>
+                        </div>
+                        <div class="pricing__image">
+                            <img src="images/keys-start.svg" alt="Комплект СТАРТ" width="150" height="150" loading="lazy">
+                        </div>
+                        <div class="pricing__body">
+                            <div class="pricing__count">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 11-7.778 7.778 5.5 5.5 0 017.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+                                Ключей: 6 шт.
+                            </div>
+                            <div class="pricing__price">990 ₽</div>
+                            <ul class="pricing__features">
+                                <li>Базовый комплект</li>
+                                <li>Для регулярного пользования</li>
+                                <li>Компактный набор</li>
+                            </ul>
+                            <a href="#order" class="btn btn--primary pricing__btn">ВЫБРАТЬ «СТАРТ»</a>
+                        </div>
+                    </div>
+
+                    <!-- ОПТИМАЛЬНЫЙ -->
+                    <div class="pricing__card pricing__card--popular">
+                        <div class="pricing__badge">Рекомендуем</div>
+                        <div class="pricing__header">
+                            <span class="pricing__label">УК-21V3 2025</span>
+                            <span class="pricing__name">ОПТИМАЛЬНЫЙ</span>
+                        </div>
+                        <div class="pricing__image">
+                            <img src="images/keys-optimal.svg" alt="Комплект ОПТИМАЛЬНЫЙ" width="150" height="150" loading="lazy">
+                        </div>
+                        <div class="pricing__body">
+                            <div class="pricing__count">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 11-7.778 7.778 5.5 5.5 0 017.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+                                Ключей: 21 шт.
+                            </div>
+                            <div class="pricing__price">2 490 ₽</div>
+                            <ul class="pricing__features">
+                                <li>Расширенный комплект</li>
+                                <li>Подходит для регулярных задач</li>
+                                <li>Баланс цены и эффективности</li>
+                            </ul>
+                            <a href="#order" class="btn btn--accent pricing__btn">ВЫБРАТЬ «ОПТИМАЛЬНЫЙ»</a>
+                        </div>
+                    </div>
+
+                    <!-- МАКСИМУМ -->
+                    <div class="pricing__card">
+                        <div class="pricing__header">
+                            <span class="pricing__label">УК-24 2026</span>
+                            <span class="pricing__name">МАКСИМУМ</span>
+                        </div>
+                        <div class="pricing__image">
+                            <img src="images/keys-max.svg" alt="Комплект МАКСИМУМ" width="150" height="150" loading="lazy">
+                        </div>
+                        <div class="pricing__body">
+                            <div class="pricing__count">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 11-7.778 7.778 5.5 5.5 0 017.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+                                Ключей: 24 шт.
+                            </div>
+                            <div class="pricing__price">3 490 ₽</div>
+                            <ul class="pricing__features">
+                                <li>Максимальный комплект</li>
+                                <li>Самый высокий процент открывания</li>
+                                <li>Для профессионалов</li>
+                            </ul>
+                            <a href="#order" class="btn btn--primary pricing__btn">ВЫБРАТЬ «МАКСИМУМ»</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing__tip">
+                    <strong>Подсказка:</strong> Если выбираете «на каждый день» — чаще всего хватает УК-21. Если работаете в полях постоянно — берите УК-24.
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== СОВМЕСТИМОСТЬ ===== -->
+        <section class="section compatibility" id="compatibility">
+            <div class="container">
+                <h2 class="section__title">Какие домофоны<br>открывают универсальные ключи</h2>
+                <p class="section__subtitle">Комплекты открывают домофоны популярных производителей. Ниже — ориентир по брендам. Точный результат зависит от модели и прошивки</p>
+
+                <div class="compatibility__grid">
+                    <div class="compatibility__col compatibility__col--brands">
+                        <h3 class="compatibility__col-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                            Список производителей
+                        </h3>
+                        <div class="compatibility__brands">
+                            <span class="brand">Визит</span>
+                            <span class="brand">Метаком</span>
+                            <span class="brand">Цифрал</span>
+                            <span class="brand">Элпис</span>
+                            <span class="brand">КС-Домофон</span>
+                            <span class="brand">Форвард</span>
+                            <span class="brand">Raikmann</span>
+                            <span class="brand">Marshal</span>
+                            <span class="brand">Filman</span>
+                            <span class="brand">Keyman</span>
+                            <span class="brand">Laskomex</span>
+                            <span class="brand brand--more">И другие</span>
+                        </div>
+                        <div class="compatibility__note">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                            Не все модели универсальных ключей открываются одинаково. Точный список соответствия вы найдёте в таблице совместимости внутри комплекта
+                        </div>
+                    </div>
+
+                    <div class="compatibility__col compatibility__col--info">
+                        <h3 class="compatibility__col-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                            Важно
+                        </h3>
+                        <div class="compatibility__info-card">
+                            <h4>Почему не 100%</h4>
+                            <p>Домофоны отличаются по модели, версии прошивки и настройкам доступа</p>
+                        </div>
+                        <div class="compatibility__info-card">
+                            <h4>Как повысить шанс совместимости</h4>
+                            <p>Сверяйтесь с таблицей совместимости и используйте профили ключей под производителя</p>
+                        </div>
+                        <div class="compatibility__info-card">
+                            <h4>Как выбрать комплект</h4>
+                            <p>Чем больше ключей в наборе, тем выше шанс открыть разные системы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== УСИЛЕННЫЙ CTA ===== -->
+        <section class="section cta-boost" id="cta-boost">
+            <div class="container">
+                <div class="cta-boost__inner">
+                    <h2 class="cta-boost__title">Хватит тратить время и нервы на домофоны</h2>
+                    <p class="cta-boost__text">Закажите комплект универсальных ключей «Вездеход» сегодня и получите:</p>
+
+                    <ul class="cta-boost__list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span><strong>Мгновенный доступ</strong> к большинству домофонов вашего района</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span><strong>Экономию времени</strong> — больше не нужно ждать, пока кто-то откроет дверь</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span><strong>Спокойствие</strong> — у вас всегда есть рабочий ключ под рукой</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span><strong>Гарантию 1 год</strong> — если что-то пойдет не так, заменим бесплатно</span>
+                        </li>
+                    </ul>
+
+                    <div class="cta-boost__offer">
+                        <span class="cta-boost__fire">🔥</span>
+                        <span><strong>Специальное предложение:</strong> При заказе комплекта «ОПТИМАЛЬНЫЙ» (21 ключ) — бесплатная доставка по России</span>
+                    </div>
+
+                    <a href="#order" class="btn btn--primary cta-boost__btn">СМОТРЕТЬ КОМПЛЕКТЫ И ЗАКАЗАТЬ
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+
+                    <div class="cta-boost__alt">
+                        <p class="cta-boost__alt-text">Или оставьте номер телефона — мы перезвоним через 5 минут, поможем выбрать подходящий комплект и ответим на все вопросы</p>
+                        <a href="#cta" class="btn btn--accent cta-boost__alt-btn">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ БЕСПЛАТНО</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ФОРМА ЗАКАЗА ===== -->
+        <section class="section order" id="order">
+            <div class="container">
+                <h2 class="section__title">Выберите комплект<br>и оформите заказ</h2>
+                <p class="section__subtitle">Заполните форму — мы подскажем, какой комплект лучше под ваши задачи, и как быстро проверить совместимость</p>
+
+                <div class="order__inner">
+                    <div class="order__products">
+                        <div class="order__product" data-product="start">
+                            <div class="order__product-info">
+                                <span class="order__product-label">УК-6-2024</span>
+                                <span class="order__product-name">СТАРТ</span>
+                                <span class="order__product-count">Ключей: 6 шт.</span>
+                            </div>
+                            <div class="order__product-image">
+                                <img src="images/keys-start.svg" alt="СТАРТ" width="60" height="60" loading="lazy">
+                            </div>
+                        </div>
+
+                        <div class="order__product" data-product="optimal">
+                            <div class="order__product-info">
+                                <span class="order__product-label">УК-21/3-2025</span>
+                                <span class="order__product-name">ОПТИМАЛЬНЫЙ</span>
+                                <span class="order__product-count">Ключей: 21 шт.</span>
+                            </div>
+                            <div class="order__product-image">
+                                <img src="images/keys-optimal.svg" alt="ОПТИМАЛЬНЫЙ" width="60" height="60" loading="lazy">
+                            </div>
+                        </div>
+
+                        <div class="order__product" data-product="max">
+                            <div class="order__product-info">
+                                <span class="order__product-label">УК-24-2026</span>
+                                <span class="order__product-name">МАКСИМУМ</span>
+                                <span class="order__product-count">Ключей: 24 шт.</span>
+                            </div>
+                            <div class="order__product-image">
+                                <img src="images/keys-max.svg" alt="МАКСИМУМ" width="60" height="60" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="order__form" id="orderForm" novalidate>
+                        <h3 class="order__form-title">Заполните форму и выберите подходящий комплект универсальных ключей</h3>
+
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Введите ваше имя" required autocomplete="name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required autocomplete="tel">
+                        </div>
+
+                        <div class="form-group">
+                            <select id="package" name="package" required>
+                                <option value="start" selected>Комплект «СТАРТ» — 6 ключей</option>
+                                <option value="optimal">Комплект «ОПТИМАЛЬНЫЙ» — 21 ключ</option>
+                                <option value="max">Комплект «МАКСИМУМ» — 24 ключа</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary order__submit">ВЫБРАТЬ КОМПЛЕКТ И ЗАКАЗАТЬ</button>
+
+                        <p class="order__privacy">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с <a href="#">Политикой конфиденциальности</a></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ ===== -->
+        <section class="section faq" id="faq">
+            <div class="container">
+                <h2 class="section__title">Ответы на ключевые вопросы</h2>
+
+                <div class="faq__list">
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false">
+                            Эти ключи открывают любой домофон?
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Нет, не любой. Универсальные ключи открывают до 85% домофонов, но результат зависит от модели, прошивки и настроек доступа конкретного устройства. Для максимального эффекта используйте таблицу совместимости и профильные ключи.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false">
+                            Как производится подбор ключей под домофон?
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Подбор осуществляется по таблице совместимости, которая прилагается к каждому комплекту. В таблице указаны модели домофонов и соответствующие им профили ключей. Выберите производителя вашего домофона и используйте рекомендованный ключ.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item faq__item--active">
+                        <button class="faq__question" aria-expanded="true">
+                            Почему один домофон открывается, а другой нет?
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Домофоны отличаются по модели, версии прошивки и настройкам доступа. Ключи от домофона открывают не все двери, так как каждый ключ универсальный ключ, соответствующий конкретной системе. Универсальные ключи работают на большинство домофонов, перечисленных в таблице совместимости. Однако есть ряд факторов, которые могут влиять на успешное открытие: наличие дополнительных систем безопасности, износ электромагнитных механизмов или замковых пластин плохого качества.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false">
+                            Как правильно пользоваться комплектом?
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Выберите ключ по таблице совместимости, поднесите к считывателю домофона и удерживайте 2-3 секунды. Если дверь не открылась, попробуйте следующий ключ из комплекта. Для лучшего результата используйте профильные ключи под конкретного производителя.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false">
+                            Можно ли вернуть товар, если ключи не подошли?
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Да, мы предоставляем гарантию 1 год. Если комплект не подошёл по совместимости, вы можете вернуть товар или обменять на другой комплект в течение 14 дней с момента покупки. Для возврата свяжитесь с нами по телефону или через форму обратной связи.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ОСТАЛИСЬ ВОПРОСЫ ===== -->
+        <section class="section cta" id="cta">
+            <div class="container">
+                <div class="cta__inner">
+                    <div class="cta__content">
+                        <h2 class="cta__title">Остались вопросы?</h2>
+                        <p class="cta__text">Ответим на них на бесплатной консультации</p>
+                        <p class="cta__text">Оставьте заявку, и получите консультацию и подберите комплект под вашу задачу</p>
+                    </div>
+                    <form class="cta__form" id="ctaForm" novalidate>
+                        <input type="tel" id="ctaPhone" name="phone" placeholder="Телефон" required autocomplete="tel">
+                        <button type="submit" class="btn btn--primary">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                    </form>
+                    <p class="cta__privacy">*Нажимая на кнопку, вы даёте согласие на обработку своих персональных данных</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col footer__col--brand">
+                    <a href="#" class="logo logo--footer">
+                        <img src="images/logo.svg" alt="StarNew" width="120" height="32">
+                    </a>
+                    <a href="mailto:m@starnew.ru" class="footer__email">E-mail: m@starnew.ru</a>
+                    <p class="footer__copy">© 2006 - 2026 «StarNew»</p>
+                </div>
+
+                <div class="footer__col">
+                    <nav class="footer__nav" aria-label="Навигация в подвале">
+                        <a href="#" class="footer__link">Главная</a>
+                        <a href="#pains" class="footer__link">Для кого</a>
+                        <a href="#pricing" class="footer__link">Ключи</a>
+                        <a href="#compatibility" class="footer__link">Открытие</a>
+                        <a href="#faq" class="footer__link">FAQ</a>
+                    </nav>
+                </div>
+
+                <div class="footer__col">
+                    <a href="#" class="footer__link">Политика конфиденциальности</a>
+                    <a href="#" class="footer__link">Договор оферты</a>
+                </div>
+
+                <div class="footer__col footer__col--legal">
+                    <p class="footer__legal-title">Реквизиты:</p>
+                    <p>ИП Глухов А.С.</p>
+                    <p>ИНН: 772408960999</p>
+                    <p>ОГРН: 324774600862920</p>
+                </div>
+            </div>
+
+            <div class="footer__ps">
+                <p><strong>P.S.</strong> Каждый день без универсальных ключей — это десятки минут потерянного времени и испорченное настроение. Начните работать эффективно уже сегодня.</p>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
